@@ -1,6 +1,7 @@
 {
   "name": "next-pwa",
   "scripts": {
+    "heroku-postbuild": "next build",
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
